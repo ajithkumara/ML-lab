@@ -16,7 +16,7 @@ This project serves as a **hands-on learning laboratory** where each ML concept 
 ---
 
 ## 🧩 Project Structure
-
+  ---
 
 ml-lab/
 │
@@ -56,7 +56,7 @@ ml-lab/
 ├── cnn_basics.md
 └── overview.md
 
----
+   ---
 
 ## ⚙️ Installation
 
@@ -75,7 +75,7 @@ ml-lab/
    ```
 
 4. Install dependencies
- ```
- pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
 
-  ```
+   ```
