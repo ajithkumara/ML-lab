@@ -94,7 +94,7 @@ This project serves as a **hands-on learning laboratory** where each ML concept 
     │  │  🎯 Best for: Adaptive, real-time optimization problems  
     │
     └── 4. Supporting Techniques (Fundamentals)
-          ├─ Data Preprocessing → Handling Missing Values, Outliers, Encoding
+        ├─ Data Preprocessing → Handling Missing Values, Outliers, Encoding
           │ 📘 Ensures clean input data for ML models
           │ ✅ Pros: Improves model accuracy
           │ ⚠️ Cons: Time-consuming
