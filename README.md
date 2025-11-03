@@ -93,9 +93,9 @@ This project serves as a **hands-on learning laboratory** where each ML concept 
     │  │  ⚠️ Cons: Harder to train, unstable sometimes
     │  │  🎯 Best for: Adaptive, real-time optimization problems  
     │
-    └── 4. Supporting Techniques (Fundamentals)
-       ├─ Data Preprocessing → Handling Missing Values, Outliers, Encoding
-       │ 📘 Ensures clean input data for ML models
+    ├─── 4. Supporting Techniques (Fundamentals)
+    │  ├─ Data Preprocessing → Handling Missing Values, Outliers, Encoding
+    │  │ 📘 Ensures clean input data for ML models
           │ ✅ Pros: Improves model accuracy
           │ ⚠️ Cons: Time-consuming
           │ 🎯 Best for: All ML pipelines
