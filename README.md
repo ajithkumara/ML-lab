@@ -32,6 +32,30 @@ This project serves as a **hands-on learning laboratory** where each ML concept 
     │ ├── svm_classifier.py
     │ └── knn_classifier.py
     │
+    │
+    ├── supervised_learning/ # Clustering and dimensionality reduction
+    │  ├── Regression (Predict Continuous Values)
+    │  │ ├─ Linear Regression
+    │  │ ├─ Polynomial Regression
+    │  │ ├─ Ridge Regression
+    │  │ └─ Lasso Regression
+    │  │  📘 Used for predicting health costs, BMI-based risk scores, etc.
+    │  │  ✅ Pros: Interpretable, fast, good baseline
+    │  │  ⚠️ Cons: Sensitive to outliers and multicollinearity
+    │  │  🎯 Best for: Predicting numeric outcomes
+    │  │
+    │  ├── Classification (Predict Categories)
+    │  │ ├─ Logistic Regression
+    │  │ ├─ Decision Trees
+    │  │ ├─ Random Forest
+    │  │ ├─ Support Vector Machines (SVM)
+    │  │ └─ K-Nearest Neighbors (KNN)
+    │  │  📘 Used for predicting disease presence, smoker vs. non-smoker, etc.
+    │  │  ✅ Pros: Handles categorical data well, powerful ensembles
+    │  │  ⚠️ Cons: Overfitting possible, needs parameter tuning
+    │  │  🎯 Best for: Health condition classification or diagnosis prediction
+    │
+    │
     ├── unsupervised_learning/ # Clustering and dimensionality reduction
     │ ├── init.py
     │ ├── kmeans.py
