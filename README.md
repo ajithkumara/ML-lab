@@ -65,14 +65,14 @@ ml-lab/
    bash
    git clone https://github.com/<your-username>/ml-lab.git
    cd ml-lab
-    ```
+   ```
 2. (Optional) Create a virtual environment
-    ```
-  python -m venv venv
-  source venv/bin/activate   # macOS/Linux
-  venv\Scripts\activate      # Windows
+   ```
+   python -m venv venv
+   source venv/bin/activate   # macOS/Linux
+   venv\Scripts\activate      # Windows
 
- ```
+   ```
 
 4. Install dependencies
  ```
