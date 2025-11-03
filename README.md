@@ -18,43 +18,43 @@ This project serves as a **hands-on learning laboratory** where each ML concept 
 ## 🧩 Project Structure
   ---
 
-ml-lab/
-│
-├── README.md # Project overview (this file)
-├── requirements.txt # Python dependencies
-├── main.py # Optional entry point
-│
-├── ml_basics/ # Core ML algorithms
-│ ├── init.py
-│ ├── linear_regression.py
-│ ├── logistic_regression.py
-│ ├── decision_tree.py
-│ ├── svm_classifier.py
-│ └── knn_classifier.py
-│
-├── unsupervised_learning/ # Clustering and dimensionality reduction
-│ ├── init.py
-│ ├── kmeans.py
-│ ├── hierarchical_clustering.py
-│ └── pca.py
-│
-├── deep_learning/ # Neural networks and advanced topics
-│ ├── init.py
-│ ├── neural_network_basics.py
-│ ├── cnn_example.py
-│ └── rnn_example.py
-│
-├── utils/ # Helper modules
-│ ├── init.py
-│ ├── data_preprocessing.py
-│ ├── model_evaluation.py
-│ └── visualization.py
-│
-└── docs/ # Documentation and theory notes
-├── linear_regression.md
-├── kmeans.md
-├── cnn_basics.md
-└── overview.md
+    ml-lab/
+    │
+    ├── README.md # Project overview (this file)
+    ├── requirements.txt # Python dependencies
+    ├── main.py # Optional entry point
+    │
+    ├── ml_basics/ # Core ML algorithms
+    │ ├── init.py
+    │ ├── linear_regression.py
+    │ ├── logistic_regression.py
+    │ ├── decision_tree.py
+    │ ├── svm_classifier.py
+    │ └── knn_classifier.py
+    │
+    ├── unsupervised_learning/ # Clustering and dimensionality reduction
+    │ ├── init.py
+    │ ├── kmeans.py
+    │ ├── hierarchical_clustering.py
+    │ └── pca.py
+    │
+    ├── deep_learning/ # Neural networks and advanced topics
+    │ ├── init.py
+    │ ├── neural_network_basics.py
+    │ ├── cnn_example.py
+    │ └── rnn_example.py
+    │
+    ├── utils/ # Helper modules
+    │ ├── init.py
+    │ ├── data_preprocessing.py
+    │ ├── model_evaluation.py
+    │ └── visualization.py
+    │
+    └── docs/ # Documentation and theory notes
+    ├── linear_regression.md
+    ├── kmeans.md
+    ├── cnn_basics.md
+    └── overview.md
 
    ---
 
