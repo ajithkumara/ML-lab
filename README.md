@@ -56,6 +56,66 @@ This project serves as a **hands-on learning laboratory** where each ML concept 
     │  │  🎯 Best for: Health condition classification or diagnosis prediction
     │
     │
+    │
+    ├── 2. Unsupervised Learning
+    │  ├── Clustering (Group similar data points)
+    │  │ ├─ K-Means
+    │  │ ├─ Hierarchical Clustering
+    │  │ └─ DBSCAN
+    │  │  📘 Used for grouping patients with similar symptoms or medical histories.
+    │  │  ✅ Pros: Reveals hidden structure
+    │  │  ⚠️ Cons: No clear accuracy metric
+    │  │  🎯 Best for: Patient segmentation, gene clustering
+    │  │
+    │  ├── Dimensionality Reduction
+    │  │ ├─ PCA (Principal Component Analysis)
+    │  │ ├─ t-SNE
+    │  │ └─ Autoencoders
+    │  │  📘 Used for simplifying large health datasets while keeping key info.
+    │  │  ✅ Pros: Reduces noise, faster training
+    │  │  ⚠️ Cons: May lose interpretability
+    │  │  🎯 Best for: Visualization and preprocessing high-dimensional data
+    │
+    ├── 3. Reinforcement Learning
+    │  ├── Value-Based Methods
+    │  │ ├─ Q-Learning
+    │  │ └─ Deep Q-Networks (DQN)
+    │  │  📘 Used for decision-making (e.g., personalized medicine or treatment paths).
+    │  │  ✅ Pros: Learns from interaction
+    │  │  ⚠️ Cons: Requires lots of training
+    │  │  🎯 Best for: Sequential decision optimization
+    │  │
+    │  ├── Policy-Based Methods
+    │  │ ├─ REINFORCE
+    │  │ └─ Actor-Critic
+    │  │  📘 Used in advanced control and adaptive systems (e.g., robotic surgery).
+    │  │  ✅ Pros: Can learn complex policies
+    │  │  ⚠️ Cons: Harder to train, unstable sometimes
+    │  │  🎯 Best for: Adaptive, real-time optimization problems  
+    │
+    └── 4. Supporting Techniques (Fundamentals)
+          ├─ Data Preprocessing → Handling Missing Values, Outliers, Encoding
+          │ 📘 Ensures clean input data for ML models
+          │ ✅ Pros: Improves model accuracy
+          │ ⚠️ Cons: Time-consuming
+          │ 🎯 Best for: All ML pipelines
+          │
+          ├─ Feature Scaling → Standardization, Normalization
+          │ 📘 Keeps numerical features on similar scales
+          │ ✅ Pros: Improves convergence in algorithms like SVM, KNN
+          │ ⚠️ Cons: May remove interpretability
+  │
+          ├─ Evaluation Metrics → Accuracy, Precision, Recall, F1, ROC-AUC
+          │ 📘 Helps assess model performance
+          │ ✅ Pros: Reveals different aspects of quality
+          │ ⚠️ Cons: Choosing wrong metric can mislead
+          │
+          └─ Cross-Validation → K-Fold, Stratified
+            📘 Improves reliability of performance evaluation
+            ✅ Pros: Prevents overfitting
+            ⚠️ Cons: Computationally expensive
+
+
     ├── unsupervised_learning/ # Clustering and dimensionality reduction
     │ ├── init.py
     │ ├── kmeans.py
