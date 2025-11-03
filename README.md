@@ -93,29 +93,28 @@ This project serves as a **hands-on learning laboratory** where each ML concept 
     │  │  ⚠️ Cons: Harder to train, unstable sometimes
     │  │  🎯 Best for: Adaptive, real-time optimization problems  
     │
-    ├── 4. Reinforcement Learning
-    │  ├── Value-Based Methods
-    │  │ ├─ Q-Learning
-    │  │ └─ Deep Q-Networks (DQN)
-    │  │  📘 Used for decision-making (e.g., personalized medicine or treatment paths).
-    │  │  ✅ Pros: Learns from interaction
-    │  │  ⚠️ Cons: Requires lots of training
-    │  │  🎯 Best for: Sequential decision optimization
+    ├── 4. Supporting Techniques (Fundamentals)
+    │  ├── Data Preprocessing → Handling Missing Values, Outliers, Encoding
+    │  │  📘 Ensures clean input data for ML models
+    │  │  ✅ Pros: Improves model accuracy
+    │  │  ⚠️ Cons: Time-consuming
+    │  │  🎯 Best for: All ML pipelines
     │  │
-    │  ├── Policy-Based Methods
-    │  │ ├─ REINFORCE
-    │  │ └─ Actor-Critic
-    │  │  📘 Used in advanced control and adaptive systems (e.g., robotic surgery).
-    │  │  ✅ Pros: Can learn complex policies
-    │  │  ⚠️ Cons: Harder to train, unstable sometimes
-    │  │  🎯 Best for: Adaptive, real-time optimization problems  
+    │  ├── Feature Scaling → Standardization, Normalization
+    │  │  📘 Keeps numerical features on similar scales
+    │  │  ✅ Pros: Improves convergence in algorithms like SVM, KNN
+    │  │  ⚠️ Cons: May remove interpretability
+    │  │
+    │  ├── Evaluation Metrics → Accuracy, Precision, Recall, F1, ROC-AUC
+    │  │  📘 Helps assess model performance
+    │  │  ✅ Pros: Reveals different aspects of quality
+    │  │  ⚠️ Cons: Choosing wrong metric can mislead
+    │  │
+    │  ├── Cross-Validation → K-Fold, Stratified
+    │  │  📘 Improves reliability of performance evaluation
+    │  │  ✅ Pros: Prevents overfitting
+    │  │  ⚠️ Cons: Computationally expensive
     │
-
-    ├── unsupervised_learning/ # Clustering and dimensionality reduction
-    │ ├── init.py
-    │ ├── kmeans.py
-    │ ├── hierarchical_clustering.py
-    │ └── pca.py
     │
     ├── deep_learning/ # Neural networks and advanced topics
     │ ├── init.py
